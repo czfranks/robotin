@@ -1,0 +1,79 @@
+/*  */
+.robotin {
+    position: sticky; /* de alguna manera sticky "ayuda" a 
+                       centrar( centrado en style.css con margin: auto)
+                       todo el contenido dentro robotin */
+}
+.robotin div{
+    position: absolute; /* todos los box(divs) en la parte superior izquierda
+                            "superpuestos", uno encima de otro */
+}
+/* Posicionamiento de cada parte del cuerpo */
+/* top */
+#ear-left {
+    left: 8rem;
+    top: 1rem;
+}
+#ear-right {
+    left: 15rem;
+    top: 1rem;
+}
+#eye-left {  /* inside head */
+    left: 1rem;
+    top: 1rem;
+}
+#eye-right { /* inside head */
+    left: 4rem;
+    top: 1rem;
+}
+#mouth-unique { /* inside head */
+    left: 1rem;
+    top: 3rem;
+}
+#head-unique {
+    left: 9rem;
+    top: 0rem;
+}
+#neck-unique {
+    left: 11rem;
+    top: 5rem;
+}
+/* mid */
+#trunk-unique {
+    left: 6rem;
+    top: 6rem;
+}
+#arm-left {
+    left: 1rem;
+    top: 7rem;
+}
+#arm-right {
+    left: 18rem;
+    top: 7rem;
+}
+#forearm-left {
+    left: 1rem;
+    top: 9rem;
+}
+#forearm-right {
+    left: 21rem;
+    top: 4rem;
+}
+/* bot */
+#leg-left {
+    left: 8rem;
+    top: 15rem;
+}
+#leg-right {
+    left: 13rem;
+    top: 15rem;
+}
+#foot-left {
+    left: 6rem;
+    top: 23rem;
+}
+#foot-right {
+    left: 14rem;
+    top: 23rem;
+    
+}

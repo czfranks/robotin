@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 20px;
+}
+.robotin {
+    font-size: 0.8rem;
+    width: 25rem; /* 500px; */
+    height: 25rem;
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 0.5rem 0;
+    box-shadow: 0.5rem 0.5rem 1rem teal;
+}
+.robotin div{
+    text-align: center;
+}
+
+/* top */
+.ear {
+    background-color: red;
+    height: 2rem;
+    width: 1rem;
+}
+.head {
+    background-color: blue;
+    height: 5rem;
+    width: 6rem;
+    border-radius: 0 0 1rem 1rem;
+}
+.head div {
+    border-radius: 1rem;
+}
+.eye { /* inside head */
+    background-color: yellow;
+    height: 1rem;
+    width: 1rem;
+}
+.eye img{
+    width: 60%;
+    height: 90%;
+    margin-top: 0.08rem;
+}
+.mouth { /* inside head */
+    background-color: gray;
+    height: 1rem;
+    width: 4rem;
+}
+.mouth img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+.neck {
+    background-color: purple;
+    height: 1rem;
+    width: 2rem;
+}
+/* mid */
+.trunk {
+    background-color: skyblue;
+    height: 9rem;
+    width: 12rem;
+    border-radius: 1rem;
+}
+.trunk article{
+    border: 0.01rem solid gray;
+    background-color: rgb(194, 191, 191);
+    height: 80%;
+    width: 80%;
+    margin: 10% auto;
+    padding: 0 0.1rem;
+    border-radius: 1rem;
+    display: inline-block;
+}
+.trunk header{
+    font-size: 1.2rem;
+    width: 60%;
+    margin: auto;
+    border-radius: 1rem;
+    border: 0.01rem solid gray;
+    background-color: red;
+
+    position: relative;
+    bottom: 0.7rem;
+}
+.trunk .description{
+    font-size: 0.6rem;
+}
+.roboto-img{
+    width: 30%;
+    height: 60%;
+    float: left;
+}
+.arm {
+    background-color: orange;
+    height: 2rem;
+    width: 5rem;
+}
+#arm-left {
+    border-radius: 1rem 0 0 0;
+}
+#arm-right {
+    border-radius: 0 0 1rem 0;
+}
+.forearm {
+    background-color: green;
+    height: 3rem;
+    width: 2rem;
+}
+/* bot */
+.leg {
+    background-color: black;
+    height: 8rem;
+    width: 3rem;
+}
+.foot {
+    background-color: chocolate;
+    height: 2rem;
+    width: 4rem;
+}
+#foot-left{
+    border-radius: 1rem 0 0 0;
+}
+#foot-right{
+    border-radius: 0 1rem 0 0;
+}
